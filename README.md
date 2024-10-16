@@ -5,3 +5,5 @@ expect to see that the implementations of the get() method are called, even if t
 However, this only works for Kotlin < 2.
 
 Change the property 'kotlin.version' in pom.xml to 1.9.24 to see the correct behavior.
+
+Ticket at Jetbrains: https://youtrack.jetbrains.com/issue/KT-72345/Method-in-subclass-no-longer-called-since-Kotlin-2.0.0
